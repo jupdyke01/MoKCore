@@ -1,0 +1,88 @@
+main: me.jupdyke01.mokcore.Main
+name: MoKCore
+version: 1.0
+author: jupdyke01
+depend: [ProtocolLib]
+
+commands:
+  character:
+    description: Allows you to see someones character!
+    usage: /character <player>
+    aliases: [char, sheet]
+  name:
+    description: Allows you to set your characters name!
+    usage: /name [name]
+  desc:
+    description: Allows you to set your characters description!
+    usage: /desc [description]
+  race:
+    description: Allows staff to set a characters race!
+    usage: /race [race] <parent race> <parent race>
+  races:
+    description: Allows you to see all available races!
+    usage: /races
+  roll:
+    description: Roll a stat or a number!
+    usage: /roll <stat> or <number>
+  w:
+    description: Allows you to whisper!
+    usage: /w <message>
+  g:
+    description: Allows you to talk in global chat!
+    usage: /g <message>
+    aliases: [sh]
+  s:
+    description: Allows you to shout!
+    usage: /s <message>
+  sit:
+    description: Allows you to sit!
+    usage: /sit
+  omnom:
+    description: Allows you to loose hunger!
+    usage: /omnom
+  lore:
+    description: Allows you edit an items lore!
+    usage: /lore <add/remove>
+  me:
+    description: Allows you to do an action!
+    usage: /me <action>
+  rename:
+    description: Allows you to rename an item!
+    usage: /rename <title>
+  coin:
+    descriptino: Allows you to spawn in coins!
+    usage: /coin <amount>
+  ticket:
+    description: Allows you to create a ticket!
+    usage: /ticket add <title>
+    aliases: [t]
+  toggleg:
+    description: Allows you to toggle global chat on or off!
+    usage: /toggleg
+  sign:
+    description: Gives you a free sign!
+    usage: /sign
+  book:
+    description: Gives you a free book!
+    usage: /book
+  rank:
+    description: Allows you to manipulate ranks!
+    usage: /rank
+  prof:
+    description: Allows you to [add/remove/level] someones professions
+    usage: /prof [add/remove/level] <player> <profession>
+  wood:
+    descriptino: Allows you to do /wood
+    usage: /wood
+  farm:
+    description: Allows you to do /farm
+    usage: /farm
+  mine:
+    description: Allows you to do /mine
+    usage: /mine
+  fish:
+    description: Allows you to do /fish
+    usage: /fish
+  stats:
+    description: Allows you to check stats
+    usage: /stats
